@@ -1,0 +1,35 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: df2caeaa2ea07305912aa8ef2b48deca722a2a8253ab50fb278bd580f8c7f11e
+
+name:           independent
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/JeffreyBenjaminBrown/independent#readme>
+homepage:       https://github.com/JeffreyBenjaminBrown/independent#readme
+bug-reports:    https://github.com/JeffreyBenjaminBrown/independent/issues
+author:         Jeffrey Benjamin Brown
+maintainer:     jeffbrown.the@gmail.com
+copyright:      BSD
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/JeffreyBenjaminBrown/independent
+
+library
+  exposed-modules:
+      SplitModules.Independent
+  other-modules:
+      Paths_independent
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
